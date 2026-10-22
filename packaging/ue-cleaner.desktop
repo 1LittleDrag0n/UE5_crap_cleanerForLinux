@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=UE Cleaner
+Comment=Remove unneeded platform files from Unreal Engine installs
+Exec=ue-cleaner
+Icon=ue-cleaner
+Categories=Utility;
+Terminal=false

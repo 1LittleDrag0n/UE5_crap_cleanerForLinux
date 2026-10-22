@@ -1,0 +1,18 @@
+# Build output
+build/
+dist/
+*.AppImage
+*.AppDir/
+squashfs-root/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors / desktop
+.vscode/
+.idea/
+*.swp
+.directory

@@ -1,0 +1,5 @@
+#!/bin/sh
+HERE="$(dirname "$(readlink -f "$0")")"
+unset QT_PLUGIN_PATH QT_STYLE_OVERRIDE
+export QT_QPA_PLATFORMTHEME=xdgdesktopportal
+exec "$HERE/usr/python/bin/python3" -s "$HERE/usr/share/ue-cleaner/ue_cleaner.py" "$@"
